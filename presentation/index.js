@@ -51,6 +51,74 @@ export default class Presentation extends React.Component {
             <ListItem>Inmutabilidad</ListItem>
           </List>
         </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">.filter()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">.map()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">.reduce()</Heading>
+          <Text textColor="tertiary">returns any shape! filter, create a new shape, add up numbers...</Text>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">.forEach()</Heading>
+          <Text textColor="tertiary">Side effects.</Text>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">.some()</Heading>
+          <Text textColor="tertiary">can be used as a short circuit forEach.</Text>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">.every()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">.includes()</Heading>
+          <Text textColor="tertiary">(why not contains?)</Text>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Array.from()</Heading>
+          <Text textColor="tertiary">Array.from() takes a secondary map arg</Text>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Array.of()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Object.values()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Object.keys()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Object.entries()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Array spread - converts iterable to array</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Array spread - Concats arrays</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Array Spread + Slice. Don't splice - remove an item from an array</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Object Spread</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Function Rest</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Object.freeze()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Object.seal()</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary">Object.assign() - no longer needed because you can object spread</Heading>
+        </Slide>
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
+          <Heading size={1} textColor="secondary"><a href="https://www.youtube.com/watch?v=YnfwDQ5XYF4">Reference vs Copy in JavaScript</a></Heading>
+        </Slide>
         <Slide transition={["fade"]} bgColor="tertiary">
           <Heading size={6} textColor="primary" caps>Typography</Heading>
           <Heading size={1} textColor="secondary">Heading 1</Heading>
@@ -59,21 +127,6 @@ export default class Presentation extends React.Component {
           <Heading size={4} textColor="secondary">Heading 4</Heading>
           <Heading size={5} textColor="secondary">Heading 5</Heading>
           <Text size={6} textColor="secondary">Standard text</Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondary" caps>Standard List</Heading>
-          <List>
-            <ListItem>Item 1</ListItem>
-            <ListItem>Item 2</ListItem>
-            <ListItem>Item 3</ListItem>
-            <ListItem>Item 4</ListItem>
-          </List>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
-          <BlockQuote>
-            <Quote>Example Quote</Quote>
-            <Cite>Author</Cite>
-          </BlockQuote>
         </Slide>
       </Deck>
     );
